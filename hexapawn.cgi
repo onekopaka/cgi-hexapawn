@@ -432,7 +432,7 @@ to play perfectly. If you're not sure you're interested in playing 50
 games of hexapawn this week, you should consider <a
 href="$0?General%20Public+start+$$">playing against a public engine</a>
 that everyone collaborates on training.
-<li> You can <a href="http://github.com/onekopaka/cgi-hexapawn/tree/master/hexapawn.cgi/raw">view the <cite>hexapawn</cite> source code</a>.<p>
+<li> You can <a href="http://github.com/onekopaka/cgi-hexapawn/raw/master/hexapawn.cgi">view the <cite>hexapawn</cite> source code</a>.<p>
 
 </ul>
 
