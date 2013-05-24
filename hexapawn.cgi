@@ -553,13 +553,13 @@ any games for three days.\n<p>";
 
     &print_board('b', 'b', 'b', 'x', 'x', 'x', 'w', 'w', 'w');
     print "You can open with ";
-    print "<a href=\"$0?$tag+play++bbbwxxxww+$$\">a1-a2</a>, ";
-    print "<a href=\"$0?$tag+play++bbbxwxwxw+$$\">b1-b2</a>, ";
-    print "or <a href=\"$0?$tag+play++bbbxxwwwx+$$\">c1-c2</a>";
+    print "<a href=\"$0?$tag+play+bbbwxxxww\">a1-a2</a>, ";
+    print "<a href=\"$0?$tag+play+bbbxwxwxw\">b1-b2</a>, ";
+    print "or <a href=\"$0?$tag+play+bbbxxwwwx\">c1-c2</a>";
     if ($movedb{'bbbxxxwww'} == 1) {
 	print".  I won\'t go first because I\'ve learned I always lose when I do that.";
     } else {
-	print ", or\nyou can <a href=\"$0?$tag+play++bbbxxxwww+$$\">let me have the first move</a>.";
+	print ", or\nyou can <a href=\"$0?$tag+play+bbbxxxwww\">let me have the first move</a>.";
     }
     print "<address>onekopaka+hexapawn\@gmail.com</address>\n";
 
