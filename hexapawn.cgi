@@ -42,7 +42,7 @@ use Carp;
 # <META name="distribution" value="global">
 
 undef %movedb;
-$movedbdir = '/home/onekopaka/hexapawnmoves/';
+$movedbdir = '/srv/web/hexapawnmoves/';
 
 # ReadParse
 # Reads in GET or POST data, converts it to unescaped text,
@@ -569,7 +569,7 @@ any games for three days.\n<p>";
 sub print_board {
     local(@board) = @_;
     local ($i, $j);
-    $picpath='/~onekopaka/pix/';
+    $picpath='/cgi-bin/hexapawn/pix/';
     
     print "<img src=\"${picpath}corner.gif\" alt=\"#\">";
     foreach $i ('a', 'b', 'c') {
